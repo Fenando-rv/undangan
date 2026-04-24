@@ -619,6 +619,26 @@
             // Scroll list back to top to see the new wish
             document.getElementById('wishesList').scrollTop = 0;
         };
+        <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+
+    <script>
+      // Tempelkan kodenya di sini
+      const firebaseConfig = {
+        apiKey: "ISI_DARI_FIREBASE_ANDA",
+        authDomain: "undangan-foby-dinda.firebaseapp.com",
+        databaseURL: "https://undangan-foby-dinda-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "undangan-foby-dinda",
+        storageBucket: "undangan-foby-dinda.appspot.com",
+        messagingSenderId: "XXXXXXXXX",
+        appId: "1:XXXXXXXXX:web:XXXXXXX"
+      };
+
+      // Inisialisasi Firebase
+      firebase.initializeApp(firebaseConfig);
+      const db = firebase.database();
+
+      // Sekarang website Anda sudah terhubung ke backend!
     </script>
 </body>
 </html>
