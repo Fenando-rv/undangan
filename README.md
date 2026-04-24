@@ -4,7 +4,7 @@ Proyek ini adalah aplikasi **Undangan Digital** berbasis web yang ringan, elegan
 
 ## 🚀 Live Demo
 Lihat undangan secara langsung di sini:
-👉 ([https://undangan-one-neon.vercel.app](https://undangan-fobydinda.vercel.app/))
+👉 ([https://undangan.vercel.app](https://undangan-fobydinda.vercel.app/))
 
 ## 🛠️ Fitur Utama
 * **Desain Responsif:** Tampilan optimal di berbagai perangkat (Smartphone, Tablet, Desktop).
