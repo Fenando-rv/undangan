@@ -155,12 +155,10 @@
     <div id="progress"></div>
     <div id="petal-container"></div>
 
-    <!-- Background Music -->
     <audio id="bgMusic" loop preload="auto">
         <source src="musik/Cinta Terakhir  - Ari Lasso  LIRIK LAGU.mp3" type="audio/mpeg">
     </audio>
 
-    <!-- Welcome Overlay -->
     <div id="overlay" class="fixed inset-0 z-[100] flex flex-col items-center justify-center welcome-bg p-6 text-center transition-all duration-1000">
         <div class="absolute inset-4 md:inset-10 border border-gold-primary/20 pointer-events-none"></div>
         
@@ -187,7 +185,6 @@
         </div>
     </div>
 
-    <!-- Music Toggle -->
     <div id="musicControl" class="fixed bottom-6 right-6 z-50 hidden">
         <button id="musicToggle" class="bg-white/90 p-4 rounded-full shadow-2xl border border-stone-100 flex items-center justify-center hover:bg-white transition-colors">
             <i data-lucide="music" id="musicIcon" class="text-stone-700"></i>
@@ -196,7 +193,6 @@
 
     <main id="main-content" class="hidden opacity-0 transition-opacity duration-1000">
         
-        <!-- Hero Section -->
         <section class="h-screen hero-section flex flex-col items-center justify-center text-white text-center relative px-6">
             <div class="reveal">
                 <p class="font-serif tracking-[0.6em] uppercase text-[10px] md:text-sm mb-6 opacity-80">We Are Getting Married</p>
@@ -209,7 +205,6 @@
             </a>
         </section>
 
-        <!-- Quotes Section -->
         <section id="profile" class="py-32 px-6 bg-white">
             <div class="max-w-4xl mx-auto text-center">
                 <div class="reveal mb-32">
@@ -248,10 +243,8 @@
             </div>
         </section>
 
-        <!-- Events Details -->
         <section class="py-32 px-4 md:px-6 bg-stone-50">
             <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <!-- Akad -->
                 <div class="glass-card p-10 md:p-16 shadow-xl reveal border-gold-primary/10">
                     <div class="flex flex-col items-center text-center">
                         <i data-lucide="sparkles" class="text-gold-primary mb-8" style="width: 40px; height: 40px;"></i>
@@ -273,7 +266,6 @@
                     </div>
                 </div>
 
-                <!-- Resepsi -->
                 <div class="bg-charcoal p-10 md:p-16 rounded-[2rem] md:rounded-[3rem] shadow-2xl reveal border-t-4 border-gold-primary" style="transition-delay: 200ms;">
                     <div class="flex flex-col items-center text-center">
                         <i data-lucide="infinity" class="text-gold-primary mb-8" style="width: 40px; height: 40px;"></i>
@@ -281,11 +273,11 @@
                         <div class="space-y-6 mb-12">
                             <div class="flex flex-col items-center">
                                 <span class="text-gold-primary font-bold tracking-[0.2em] text-xs uppercase mb-2">Tanggal</span>
-                                <p class="text-gold-primary font-bold tracking-[0.2em] text-xs uppercase mb-2>Minggu, 10 Mei 2026</p>
+                                <p class="text-gold-light text-xl md:text-2xl font-serif">Minggu, 10 Mei 2026</p>
                             </div>
                             <div class="flex flex-col items-center">
                                 <span class="text-gold-primary font-bold tracking-[0.2em] text-xs uppercase mb-2">Waktu</span>
-                                <p class="text-gold-primary font-bold tracking-[0.2em] text-xs uppercase mb-2e">09.00 - Selesai WIB</p>
+                                <p class="text-gold-light text-xl md:text-2xl font-serif">09.00 - Selesai WIB</p>
                             </div>
                         </div>
                         <div class="pt-8 border-t border-white/20 w-full">
@@ -296,7 +288,6 @@
                 </div>
             </div>
 
-            <!-- Map (Denah Lokasi) -->
             <div class="max-w-5xl mx-auto mt-24 reveal px-2">
                 <div class="text-center mb-10">
                     <h3 class="font-serif text-2xl uppercase tracking-widest mb-4">Lokasi Acara</h3>
@@ -305,19 +296,18 @@
                 <div class="p-2 border-[1px] border-gold-primary/30 rounded-[2.5rem] bg-white shadow-xl">
                     <div class="rounded-[2.4rem] overflow-hidden shadow-inner h-80 md:h-[450px]">
                         <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4578426038927!2d104.72465337589574!3d-3.003666635541673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75c87247738f%3A0xc3f631484196323a!2sTaman%20Purbakala%20Kerajaan%20Sriwijaya!5e0!3m2!1sid!2sid!4v1714000000000" 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.4172458145136!2d104.72914107497042!3d-2.9816047969943265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75c00a3e8705%3A0xc6829870199e4694!2sTaman%20Purbakala%20Kerajaan%20Sriwijaya!5e0!3m2!1sid!2sid!4v1713964800000!5m2!1sid!2sid" 
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
                 <div class="text-center mt-12">
-                    <a href="https://www.google.com/maps/place/Taman+Purbakala+Kerajaan+Sriwijaya/@-3.0142072,104.7319506,17z/data=!4m14!1m7!3m6!1s0x2e3b9e6cae9eb351:0x83f75e4e0e8a569e!2sTaman+Purbakala+Kerajaan+Sriwijaya!8m2!3d-3.0150322!4d104.7344182!16s%2Fm%2F0hndjtq!3m5!1s0x2e3b9e6cae9eb351:0x83f75e4e0e8a569e!8m2!3d-3.0150322!4d104.7344182!16s%2Fm%2F0hndjtq?entry=ttu" target="_blank" class="btn-gold inline-flex items-center gap-3 px-12 py-4 rounded-full tracking-widest text-xs font-bold uppercase">
+                    <a href="https://maps.app.goo.gl/3fF9vS8zUvD2yL1j8" target="_blank" class="btn-gold inline-flex items-center gap-3 px-12 py-4 rounded-full tracking-widest text-xs font-bold uppercase">
                         <i data-lucide="navigation-2" style="width: 18px; height: 18px;"></i> Petunjuk Arah Ke Lokasi
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- Digital Gift Section -->
         <section class="py-32 px-6 bg-stone-100">
             <div class="max-w-xl mx-auto text-center">
                 <div class="reveal mb-16">
@@ -332,10 +322,7 @@
                             <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Bank_Mandiri_logo_2016.svg" class="h-8 md:h-10 brightness-0 invert" alt="Mandiri Logo">
                             <p class="text-[8px] uppercase tracking-[0.2em] mt-2 opacity-70">Premium Banking</p>
                         </div>
-                        <div class="w-12 h-9 bg-yellow-400/80 rounded-md shadow-inner flex items-center justify-center overflow-hidden">
-                             <div class="w-full h-[1px] bg-black/10 my-1"></div>
-                             <div class="w-full h-[1px] bg-black/10 my-1"></div>
-                        </div>
+                        <div class="w-12 h-9 bg-yellow-400/80 rounded-md shadow-inner"></div>
                     </div>
                     
                     <div class="space-y-6 relative z-10">
@@ -356,7 +343,6 @@
             </div>
         </section>
 
-        <!-- RSVP Section -->
         <section class="py-32 px-4 md:px-6 bg-white relative">
             <div class="max-w-2xl mx-auto">
                 <div class="glass-card p-10 md:p-16 shadow-2xl reveal mb-24 border-gold-primary/20">
@@ -383,7 +369,6 @@
                     </form>
                 </div>
 
-                <!-- Ucapan & Doa Restu -->
                 <div class="reveal">
                     <div class="text-center mb-12">
                         <h3 class="font-serif text-3xl tracking-[0.3em] uppercase">Ucapan & Doa Restu</h3>
@@ -394,49 +379,12 @@
                         <form id="wishForm" class="space-y-6">
                             <input type="text" id="wishName" placeholder="Nama Anda" required class="w-full px-6 py-4 rounded-2xl bg-white border-none outline-none shadow-sm text-sm focus:ring-1 focus:ring-gold-primary transition-all">
                             <textarea id="wishMsg" placeholder="Tuliskan doa tulus Anda..." rows="4" required class="w-full px-6 py-4 rounded-3xl bg-white border-none outline-none shadow-sm text-sm focus:ring-1 focus:ring-gold-primary transition-all"></textarea>
-                            <!-- FIX: Tombol Kirim Doa sekarang menggunakan btn-gold -->
                             <button type="submit" class="btn-gold w-full md:w-auto px-12 py-4 rounded-full font-bold text-[10px] tracking-[0.3em] shadow-xl transition-all uppercase">KIRIM DOA SEKARANG</button>
                         </form>
                     </div>
 
-                    <!-- Wishes List (Area Ucapan Tetap Ditampilkan) -->
                     <div id="wishesList" class="space-y-6 max-h-[800px] overflow-y-auto pr-2 custom-scrollbar p-1">
-                        <!-- Contoh Ucapan 1 -->
-                        <div class="wish-item bg-white p-8 rounded-[2.5rem] shadow-sm border border-gold-primary/5 transition-all hover:border-gold-primary/20">
-                            <div class="flex items-center gap-4 mb-4">
-                                <div class="w-10 h-10 rounded-full bg-gold-primary/10 flex items-center justify-center text-xs font-bold text-gold-primary">SR</div>
-                                <div>
-                                    <p class="font-bold text-stone-800 text-sm">Siska & Rizki</p>
-                                    <p class="text-[9px] text-stone-400 uppercase tracking-widest">Sahabat Mempelai</p>
-                                </div>
-                            </div>
-                            <p class="text-stone-500 text-sm italic leading-relaxed">"Selamat ya Foby & Dinda! Akhirnya hari yang dinanti tiba. Semoga acaranya lancar dan kalian menjadi keluarga yang penuh keberkahan selamanya. Aamiin!"</p>
                         </div>
-                        
-                        <!-- Contoh Ucapan 2 -->
-                        <div class="wish-item bg-white p-8 rounded-[2.5rem] shadow-sm border border-gold-primary/5 transition-all hover:border-gold-primary/20">
-                            <div class="flex items-center gap-4 mb-4">
-                                <div class="w-10 h-10 rounded-full bg-gold-primary/10 flex items-center justify-center text-xs font-bold text-gold-primary">AM</div>
-                                <div>
-                                    <p class="font-bold text-stone-800 text-sm">Andra Mahendra</p>
-                                    <p class="text-[9px] text-stone-400 uppercase tracking-widest">Tamu Undangan</p>
-                                </div>
-                            </div>
-                            <p class="text-stone-500 text-sm italic leading-relaxed">"Barakallahu lakum wa baraka alaikum. Selamat menempuh hidup baru Foby & Dinda, semoga sakinah mawaddah warahmah selamanya."</p>
-                        </div>
-
-                        <!-- Contoh Ucapan 3 -->
-                        <div class="wish-item bg-white p-8 rounded-[2.5rem] shadow-sm border border-gold-primary/5 transition-all hover:border-gold-primary/20">
-                            <div class="flex items-center gap-4 mb-4">
-                                <div class="w-10 h-10 rounded-full bg-gold-primary/10 flex items-center justify-center text-xs font-bold text-gold-primary">NP</div>
-                                <div>
-                                    <p class="font-bold text-stone-800 text-sm">Nurul Putri</p>
-                                    <p class="text-[9px] text-stone-400 uppercase tracking-widest">Teman Kerja</p>
-                                </div>
-                            </div>
-                            <p class="text-stone-500 text-sm italic leading-relaxed">"Happy wedding Dinda cantik! Ikut bahagia lihat kalian berdua. Semoga selalu kompak dan bahagia sampai kakek nenek ya!"</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -445,16 +393,10 @@
             <h2 class="font-cursive text-6xl md:text-8xl mb-8">Foby & Dinda</h2>
             <div class="w-12 h-[1px] bg-gold-primary mx-auto mb-10"></div>
             <p class="text-[10px] md:text-xs tracking-[0.5em] text-stone-500 uppercase mb-16 italic">Suatu Kebahagiaan Dapat Merayakannya Bersama Anda</p>
-            <div class="flex justify-center gap-8 opacity-20">
-                <i data-lucide="infinity" style="width: 24px; height: 24px;"></i>
-                <i data-lucide="heart" style="width: 24px; height: 24px;"></i>
-                <i data-lucide="sparkles" style="width: 24px; height: 24px;"></i>
-            </div>
         </footer>
 
     </main>
 
-    <!-- Modal Message -->
     <div id="messageModal" class="modal">
         <div class="glass-card p-10 max-w-sm w-full text-center">
             <div id="modalIcon" class="flex justify-center mb-6"></div>
@@ -464,12 +406,29 @@
         </div>
     </div>
 
-    <!-- Toast -->
     <div id="toast" class="fixed bottom-24 left-1/2 -translate-x-1/2 bg-charcoal text-white px-8 py-3 rounded-full text-xs font-bold tracking-widest shadow-2xl opacity-0 translate-y-10 transition-all z-[200]">
         REKENING BERHASIL DISALIN
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+
     <script>
+        // --- KONFIGURASI FIREBASE (GANTI DENGAN MILIK ANDA) ---
+        const firebaseConfig = {
+            apiKey: "ISI_DENGAN_API_KEY_ANDA",
+            authDomain: "undangan-foby-dinda.firebaseapp.com",
+            databaseURL: "https://undangan-foby-dinda-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "undangan-foby-dinda",
+            storageBucket: "undangan-foby-dinda.appspot.com",
+            messagingSenderId: "XXXXXXXXXXXX",
+            appId: "1:XXXXXXXXXXXX:web:XXXXXXXXXXXX"
+        };
+
+        // Inisialisasi Firebase
+        firebase.initializeApp(firebaseConfig);
+        const db = firebase.database();
+
         window.onload = function() {
             if (typeof lucide !== 'undefined') lucide.createIcons();
         };
@@ -548,20 +507,15 @@
         });
 
         function copyAccount(num) {
-            const el = document.createElement('textarea');
-            el.value = num;
-            document.body.appendChild(el);
-            el.select();
-            document.execCommand('copy');
-            document.body.removeChild(el);
-            
-            const toast = document.getElementById('toast');
-            toast.classList.remove('opacity-0', 'translate-y-10');
-            toast.classList.add('opacity-100', 'translate-y-0');
-            setTimeout(() => {
-                toast.classList.remove('opacity-100', 'translate-y-0');
-                toast.classList.add('opacity-0', 'translate-y-10');
-            }, 2500);
+            navigator.clipboard.writeText(num).then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.remove('opacity-0', 'translate-y-10');
+                toast.classList.add('opacity-100', 'translate-y-0');
+                setTimeout(() => {
+                    toast.classList.remove('opacity-100', 'translate-y-0');
+                    toast.classList.add('opacity-0', 'translate-y-10');
+                }, 2500);
+            });
         }
 
         function showMessage(title, text, iconType = 'check') {
@@ -569,11 +523,9 @@
             const iconDiv = document.getElementById('modalIcon');
             document.getElementById('modalTitle').innerText = title;
             document.getElementById('modalText').innerText = text;
-            
             iconDiv.innerHTML = iconType === 'check' 
                 ? `<div class="bg-green-100 p-4 rounded-full text-green-600"><i data-lucide="check"></i></div>`
                 : `<div class="bg-blue-100 p-4 rounded-full text-blue-600"><i data-lucide="info"></i></div>`;
-            
             lucide.createIcons();
             modal.classList.add('active');
         }
@@ -582,63 +534,61 @@
             document.getElementById('messageModal').classList.remove('active');
         }
 
+        // --- FIREBASE: SIMPAN RSVP ---
         document.getElementById('rsvpForm').onsubmit = (e) => {
             e.preventDefault();
-            const name = document.getElementById('rsvpName').value;
-            showMessage('Berhasil', `Terima kasih ${name}, konfirmasi kehadiran Anda telah tersimpan.`);
-            e.target.reset();
+            const data = {
+                nama: document.getElementById('rsvpName').value,
+                status: document.getElementById('rsvpStatus').value,
+                jumlah: document.getElementById('rsvpQty').value,
+                waktu: new Date().toLocaleString()
+            };
+            
+            db.ref('rsvp').push(data).then(() => {
+                showMessage('Berhasil', `Terima kasih ${data.nama}, konfirmasi Anda telah tersimpan.`);
+                e.target.reset();
+            });
         };
 
+        // --- FIREBASE: SIMPAN UCAPAN ---
         document.getElementById('wishForm').onsubmit = (e) => {
             e.preventDefault();
-            const name = document.getElementById('wishName').value;
-            const msg = document.getElementById('wishMsg').value;
-            const initials = name.split(' ').map(n => n[0]).join('').substring(0,2).toUpperCase();
-            
-            // Generate New Wish Item
-            const item = document.createElement('div');
-            item.className = 'wish-item bg-white p-8 rounded-[2.5rem] shadow-sm border border-gold-primary/10 transition-all hover:border-gold-primary/20';
-            item.innerHTML = `
-                <div class="flex items-center gap-4 mb-4">
-                    <div class="w-10 h-10 rounded-full bg-gold-primary/10 flex items-center justify-center text-xs font-bold text-gold-primary">${initials}</div>
-                    <div>
-                        <p class="font-bold text-stone-800 text-sm">${name}</p>
-                        <p class="text-[9px] text-stone-400 uppercase tracking-widest">Tamu Undangan</p>
-                    </div>
-                </div>
-                <p class="text-stone-500 text-sm italic leading-relaxed">"${msg}"</p>
-            `;
-            
-            // Prepend to the top of the list
-            document.getElementById('wishesList').prepend(item);
-            
-            // Reset Form and Show Message
-            e.target.reset();
-            showMessage('Terkirim', 'Doa restu Anda sangat berarti bagi kami. Terima kasih!');
-            
-            // Scroll list back to top to see the new wish
-            document.getElementById('wishesList').scrollTop = 0;
+            const data = {
+                nama: document.getElementById('wishName').value,
+                pesan: document.getElementById('wishMsg').value,
+                timestamp: Date.now()
+            };
+
+            db.ref('wishes').push(data).then(() => {
+                showMessage('Terkirim', 'Doa restu Anda sangat berarti bagi kami. Terima kasih!');
+                e.target.reset();
+            });
         };
-        <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
 
-    <script>
-      // Tempelkan kodenya di sini
-      const firebaseConfig = {
-        apiKey: "ISI_DARI_FIREBASE_ANDA",
-        authDomain: "undangan-foby-dinda.firebaseapp.com",
-        databaseURL: "https://undangan-foby-dinda-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId: "undangan-foby-dinda",
-        storageBucket: "undangan-foby-dinda.appspot.com",
-        messagingSenderId: "XXXXXXXXX",
-        appId: "1:XXXXXXXXX:web:XXXXXXX"
-      };
-
-      // Inisialisasi Firebase
-      firebase.initializeApp(firebaseConfig);
-      const db = firebase.database();
-
-      // Sekarang website Anda sudah terhubung ke backend!
+        // --- FIREBASE: TAMPILKAN UCAPAN REAL-TIME ---
+        db.ref('wishes').on('value', (snapshot) => {
+            const list = document.getElementById('wishesList');
+            list.innerHTML = ''; 
+            const data = snapshot.val();
+            if (data) {
+                Object.keys(data).reverse().forEach(key => {
+                    const item = data[key];
+                    const initials = item.nama.substring(0,2).toUpperCase();
+                    const html = `
+                        <div class="wish-item bg-white p-8 rounded-[2.5rem] shadow-sm border border-gold-primary/10 mb-4">
+                            <div class="flex items-center gap-4 mb-4">
+                                <div class="w-10 h-10 rounded-full bg-gold-primary/10 flex items-center justify-center text-xs font-bold text-gold-primary">${initials}</div>
+                                <div>
+                                    <p class="font-bold text-stone-800 text-sm">${item.nama}</p>
+                                    <p class="text-[9px] text-stone-400 uppercase tracking-widest">Tamu Undangan</p>
+                                </div>
+                            </div>
+                            <p class="text-stone-500 text-sm italic leading-relaxed">"${item.pesan}"</p>
+                        </div>`;
+                    list.innerHTML += html;
+                });
+            }
+        });
     </script>
 </body>
 </html>
